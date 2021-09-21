@@ -1,0 +1,255 @@
+/*start body config*/
+body{
+    margin: auto;
+    height: 100vh;
+    max-width: 1080px;
+}
+
+body>div{
+    height: 95%;
+}
+
+/*end body config*/
+
+
+/*start color info*/
+.grey-bg{
+    background-color: grey;
+    grid-area: grey;
+}
+
+.blue-bg{
+    background-color: blue;
+    grid-area: blue;
+}
+
+.yellow-bg{
+    background-color: yellow;
+    grid-area: yellow;
+
+}
+
+.coral-bg{
+    background-color: coral;
+    grid-area: coral;
+}
+
+
+.sky-bg{
+    background-color: skyblue;
+    grid-area: sky;
+}
+
+.darkgray-bg{
+    background-color: darkslategray;
+    grid-area: darkgray;
+}
+
+.brown-bg{
+
+    background-color: brown;
+    grid-area: brown;
+}
+
+.block{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+}
+/*end color info */
+
+/*float config */
+
+.float-container{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+.float-container>div{
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.float-container>div>div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+}
+
+/*end float config*/
+
+/*start wrapper size config*/
+.grey-size{
+    width: 20%;
+    height: 80%;
+}
+
+.blue-size{
+    width: 80%;
+    height: 30%;
+}
+
+.yellow-size{
+    width: 30%;
+    height: 50%;
+}
+
+.coral-size{
+    width: 25%;
+    height: 20%;
+}
+
+.sky-size{
+    width: 25%;
+    height: 20%;
+}
+
+.darkgray-size{
+    width: 50%;
+    height: 30%;
+}
+
+.brown-size{
+    width: 100%;
+    height: 20%;
+}
+
+/*end wrapper config*/
+
+
+/*start flex config*/
+.flex-container{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first-flex-wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue-size-flex{
+    width: 100%;
+    height: 37.5%;
+}
+
+#second-flex-wrapper{
+    width: 62.5%;
+    height: 62.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yellow-size-flex{
+    width: 37.5%;
+    height: 62.5%;
+}
+
+.sky-size-flex{
+    width: 50%;
+    height: 50%;
+}
+.coral-size-flex{
+    width: 50%;
+    height: 50%;
+}
+
+.darkgray-size-flex{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.flex-container>div{
+    padding: 3px;
+    box-sizing: border-box;
+}
+st-flex-wrapper>div {
+    padding: 3px;
+    box-sizing: border-box;
+}
+/*nd flex config*/
+
+
+/*start grid config*/
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "blue blue blue grey"
+                        "sky coral yellow grey"
+                        "darkgray darkgray yellow grey"
+                        "brown brown brown brown";
+
+    box-sizing: border-box;
+    grid-gap: 6px;
+}
+
+/*end grid config*/
+
+/*start media config*/
+
+@media all and (max-width: 500px){
+    body{
+        height: 40vh;
+    }
+}
+
+@media all and (min-width: 500px){
+    body{
+        height: 55vh;
+        font-size: 1.4em;
+    }
+}@media all and (min-width: 750px){
+    body{
+        height: 70vh;
+        font-size: 1.6em;
+    }
+}@media all and (min-width: 950px){
+    body{
+        height: 85vh;
+        font-size: 1.8em;
+    }
+}@media all and (min-width: 1200px){
+    body{
+        height: 100vh;
+        font-size: 2em;
+    }
+}
+
+/*end media config*/
+
+/*start nav config*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>a{
+    text-transform: none;
+    text-decoration: none;
+}
+
+.selected{
+    color: red;
+}
+
+
+
+
+

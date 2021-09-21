@@ -1,0 +1,66 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(255, 244, 22, 0.92);
+    font-size: 20px;
+}
+div.full{
+    width: 100%;
+}
+div.description img{
+    width: 300px;
+    height: 400px;
+}
+
+div.description{
+    display: flex;
+}
+.details>ul{
+    list-style-type: none;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+h2{
+    text-align: left;
+    color: dimgrey;
+    font-size: 20px;
+}
+
+p{
+    padding-left: 15px;
+    text-indent: 15px;
+}
+.gallery img {
+    width: 320px;
+    height: 240px;
+    border: 3px solid orangered;
+    margin: 20px;
+}
+.gallery>div{
+    margin: 0 auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#back{
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.nav{
+    display: flex;
+}
+
+
+
+
+
+
+
