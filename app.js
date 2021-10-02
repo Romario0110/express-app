@@ -6,6 +6,7 @@ const logger = require('morgan');
 let bookRouter = require('./routes/book');
 let filmRouter = require('./routes/film');
 let adaptiveRouter = require('./routes/adaptive');
+let bootstrapRouter = require('./routes/bootstrap');
 
 
 let app = express();
@@ -21,5 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/book', bookRouter);
 app.use('/film', filmRouter);
 app.use('/adaptive', adaptiveRouter);
+app.use('/bootstrap', bootstrapRouter);
 
 module.exports = app;

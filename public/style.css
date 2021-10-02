@@ -27,6 +27,10 @@ body{
     width: 33.333%;
     margin: auto 0;
 }
+.bootstrap-nav{
+    width: 50%;
+    margin: auto 0;
+}
 
 nav>a{
     text-decoration: none;

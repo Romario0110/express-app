@@ -1,0 +1,53 @@
+.container{
+    border: 1px solid firebrick;
+    height: 100vh;
+}
+
+
+
+.row>div{
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container>div{
+    height: 33.3%;
+    border: 1px solid green;
+}
+
+@media all and (min-width: 1200px) {
+   #left-header, #right-footer{
+       background-color: #f89b27;
+   }
+
+   #right-header{
+       color: red;
+   }
+
+   #left-footer{
+       color: blue;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #right-header, #content, #left-footer{
+        background-color: #fab2bc;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #left-menu, #right-menu{
+        background-color: #e65fba;
+
+    }
+}
+
+@media all and (max-width: 767px) {
+    .row>div{
+        color: green;
+    }
+}
+
+
+
